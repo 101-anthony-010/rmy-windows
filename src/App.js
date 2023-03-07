@@ -12,7 +12,6 @@ function App() {
       <div className='todo caja1'></div>
       <div className='todo caja2'></div>
       <div className='todo caja3'></div>
-      <div className='todo caja4'></div>
     </div>
     
   );
