@@ -2,9 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 //import Greeting from './components/pure/greeting';
 import TaskListComponent from './components/container/task_list';
-import ContactListComponent from './components/container/contact_list';
+import ComponentA from './components/container/ComponentA';
 
 function App() {
+
+  const probando = {
+    name : 'antony',
+    apellido : 'LastName',
+    email : 'antony@gmail.com',
+    conectado : false
+  };
   return (
 
     <div className="App">
@@ -16,7 +23,7 @@ function App() {
       <div className='todo caja3'></div>
       */}
         <TaskListComponent></TaskListComponent>
-        <ContactListComponent></ContactListComponent>
+        <ComponentA propsContact={probando}></ComponentA>
       </header>
     </div>
     
